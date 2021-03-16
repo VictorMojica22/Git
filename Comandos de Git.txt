@@ -1,4 +1,8 @@
 git status => Nos muestra el estados de los archivos. 
 git init => Se crea un repositorio y crea la rama master.
-git add .=> Se agrega el archivo a staging 
-git commit -m "Agregar a git" => Se agrega al repositorio todo lo que modificamos 
+git add .=> Se agrega el archivo a staging.
+git commit -m "Agregar a git" => Se agrega al repositorio todo lo que modificamos.
+git log --oneline => Nos muestra en todos los commit que se han hecho.
+git log => Muestra informacion en general de todo el commit.
+git checkout master/dev/commit's => con en este comando nos podemos mover entre commit's y/o ramas.
+git show => Nos muestra informacion del commit, tambien las modificaciones que se le hicieron al archivo. 
