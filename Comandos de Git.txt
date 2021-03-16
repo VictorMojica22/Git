@@ -12,4 +12,18 @@ git branch 'nombre de la rama' => De esta manera se agregan ramas.
 git merge 'nombre de la rama' => Se trae todas las modificaciones que se hayan creado en la rama y ya se haya hecho commit.
 git remote add origin https://github.com/VictorMojica22/Git.git => Con este comando lo subimos de local al reporistorio en la nube. 
 git remote -v => Nos dice a cual repositorio lo subimos. 
+<<<<<<< HEAD
 git push -u origin master => Con este comando lo mandamos y ya queda cargado. 
+=======
+git push -u origin master => Con este comando lo mandamos y ya queda cargado. 
+git clone 'https://github.com/VictorMojica22/Git.git' => Con este comando se copia un repositorio completo. 
+git push origin 'rama' => Con este comando subimos las modificaciones al repositorio global. 
+git pull origin 'rama' => Con este comando bajamos las modificaciones que se hayan hecho en las ramas. 
+git ignore => Creamos archivos y con git ignore no los toma en cuenta. 
+git tag -a v0.1 -m "Mi primera version estable" 'ID del commit /4495dcb/' => De esta manera se realizan los tags para las versiones 
+git tag => Muestra las versiones de los tags que se han hecho 
+git show-ref --tags => Muestra el ID del commit con el que se hizo el tag. 
+git push origin --tags => De esta manera subimos al repositorio el tag. 
+git tag -d v0.2 => De esta manera se elimina el tag de GIT. 
+git push origin :refs/tags/v0.2 => De esta manera se elimina el tag del repositorio GITHUB. 
+>>>>>>> comandos
