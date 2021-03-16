@@ -6,3 +6,4 @@ git log --oneline => Nos muestra en todos los commit que se han hecho.
 git log => Muestra informacion en general de todo el commit.
 git checkout master/dev/commit's => con en este comando nos podemos mover entre commit's y/o ramas.
 git show => Nos muestra informacion del commit, tambien las modificaciones que se le hicieron al archivo. 
+git reset 'codigo del commit' (--hard) (--soft) => Elimina commit's
