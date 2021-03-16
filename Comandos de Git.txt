@@ -1,6 +1,6 @@
 git status => Nos muestra el estados de los archivos. 
 git init => Se crea un repositorio y crea la rama master.
-git add .=> Se agrega el archivo a staging.
+git add . => Se agrega el archivo a staging.
 git commit -m "Agregar a git" => Se agrega al repositorio todo lo que modificamos.
 git log --oneline => Nos muestra en todos los commit que se han hecho.
 git log => Muestra informacion en general de todo el commit.
@@ -9,4 +9,7 @@ git show => Nos muestra informacion del commit, tambien las modificaciones que s
 git reset 'codigo del commit' (--hard) (--soft) => Elimina commit's
 git branch => En lista todas las ramas que se han creado. 
 git branch 'nombre de la rama' => De esta manera se agregan ramas. 
-git merge 'nombre de la rama' => Se trae todas las modificaciones que se hayan creado en la rama y ya se haya hecho commit
+git merge 'nombre de la rama' => Se trae todas las modificaciones que se hayan creado en la rama y ya se haya hecho commit.
+git remote add origin https://github.com/VictorMojica22/Git.git => Con este comando lo subimos de local al reporistorio en la nube. 
+git remote -v => Nos dice a cual repositorio lo subimos. 
+git push -u origin master => Con este comando lo mandamos y ya queda cargado. 
