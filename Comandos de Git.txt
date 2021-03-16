@@ -1,0 +1,3 @@
+git init => Se crea un repositorio y crea la rama master.
+git add .=> Se agrega el archivo a staging 
+git commit -m "Agregar a git" => Se agrega al repositorio todo lo que modificamos 
